@@ -15,7 +15,6 @@
         "ezsystems/ezplatform-calendar": "^1.3.x-dev",
         "ezsystems/ezplatform-connector-dam": "^1.1.x-dev",
         "ezsystems/ezplatform-cron": "^3.2.x-dev",
-        "ezsystems/ezplatform-ee-installer": "^3.3.x-dev",
         "ezsystems/ezplatform-elastic-search-engine": "^1.2.x-dev",
         "ezsystems/ezplatform-http-cache-fastly": "^2.1.x-dev",
         "ezsystems/ezplatform-icons": "~1.0.x-dev",
