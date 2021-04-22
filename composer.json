@@ -19,7 +19,7 @@
         "ezsystems/ezplatform-cron": "^3.2.x-dev",
         "ezsystems/ezplatform-elastic-search-engine": "^1.2.x-dev",
         "ezsystems/ezplatform-http-cache-fastly": "^2.1.x-dev",
-        "ezsystems/ezplatform-icons": "~1.0.0",
+        "ezsystems/ezplatform-icons": "~1.1.0",
         "ezsystems/ezplatform-personalization": "^1.0.x-dev",
         "ezsystems/ezplatform-version-comparison": "^1.3.x-dev",
         "ezsystems/ezplatform-workflow": "^2.3.x-dev",
