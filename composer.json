@@ -13,6 +13,7 @@
         "ibexa/image-editor": "^2.0.x-dev",
         "ibexa/oauth2-client": "^2.0.x-dev",
         "ibexa/installer": "^2.0.x-dev",
+        "ibexa/product-catalog": "^4.0.x-dev",
         "ezsystems/date-based-publisher": "^5.0.x-dev",
         "ezsystems/ezplatform-calendar": "^2.0.x-dev",
         "ezsystems/ezplatform-connector-dam": "^2.0.x-dev",
