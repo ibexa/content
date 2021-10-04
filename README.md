@@ -7,15 +7,7 @@ Learn more about [Ibexa DXP](https://www.ibexa.co/products).
 
 ## Installation
 
-1. Create a new project from [ibexa/website-skeleton](https://github.com/ibexa/website-skeleton):
-    ```
-    composer create-project ibexa/website-skeleton ibexa_website
-    ```
-1. Require `ibexa-content` package:
-    ```
-    composer config repositories.ibexa composer https://updates.ibexa.co
-    composer require ibexa-content
-    ```
+To install the latest version of Ibexa Content, follow the [installation guide](https://doc.ibexa.co/en/latest/getting_started/install_ez_platform/).
 
 ## COPYRIGHT
 Copyright (C) 1999-2020 Ibexa AS (formerly eZ Systems AS). All rights reserved.
