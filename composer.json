@@ -30,7 +30,6 @@
         "ibexa/commerce-price-engine": "^4.0.x-dev",
         "ibexa/commerce-shop": "^4.0.x-dev",
         "ibexa/commerce-shop-ui": "^4.0.x-dev",
-        "ibexa/namespace-compatibility": "dev-main",
         "ezsystems/apache-tika-bundle": "^2.0",
         "ezsystems/comment-bundle": "^3.1",
         "ezsystems/job-queue-bundle": "^4.0",
