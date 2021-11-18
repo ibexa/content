@@ -8,9 +8,9 @@
     ],
     "require": {
         "php": "^7.3",
-        "ibexa/oss": "dev-rebranding",
+        "ibexa/oss": "^4.0.x-dev",
         "ibexa/migrations": "^4.0.x-dev",
-        "ibexa/image-editor": "dev-rebranding",
+        "ibexa/image-editor": "^4.0.x-dev",
         "ibexa/oauth2-client": "^4.0.x-dev",
         "ibexa/installer": "^4.0.x-dev",
         "ibexa/product-catalog": "^4.0.x-dev",
