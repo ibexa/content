@@ -3,6 +3,8 @@
     "type": "metapackage",
     "license": "proprietary",
     "description": "A meta package for installing Ibexa DXP Content edition",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "repositories": [
         {"type": "composer", "url": "https://updates.ibexa.co"}
     ],
@@ -36,6 +38,9 @@
         "ezsystems/payment-core-bundle": "^3.0",
         "ezsystems/stash-bundle": "^0.8",
         "gregwar/captcha-bundle": "^2.1"
+    },
+    "require-dev": {
+        "ibexa/ci-scripts": "^0.1@dev"
     },
     "extra": {
         "branch-alias": {
