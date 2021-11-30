@@ -40,7 +40,7 @@
         "gregwar/captcha-bundle": "^2.1"
     },
     "require-dev": {
-        "ibexa/ci-scripts": "^0.1@dev"
+        "ibexa/ci-scripts": "^0.2@dev"
     },
     "extra": {
         "branch-alias": {
