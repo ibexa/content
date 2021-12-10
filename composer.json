@@ -23,7 +23,6 @@
         "ibexa/fastly": "^4.0.x-dev",
         "ibexa/icons": "^4.0.x-dev",
         "ibexa/personalization": "^4.0.x-dev",
-        "ibexa/personalization-client": "^4.0.x-dev",
         "ibexa/version-comparison": "^4.0.x-dev",
         "ibexa/workflow": "^4.0.x-dev",
         "ibexa/taxonomy": "^4.0.x-dev",
