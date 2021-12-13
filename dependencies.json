@@ -1,0 +1,8 @@
+[
+    {
+        "requirement": "dev-IBX-1690_enabled_tree_extension as 4.0.x-dev",
+        "repositoryUrl": "https://github.com/ibexa/taxonomy",
+        "package": "ibexa/taxonomy",
+        "shouldBeAddedAsVCS": true
+    }
+]
