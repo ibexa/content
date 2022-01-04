@@ -9,7 +9,7 @@
         {"type": "composer", "url": "https://updates.ibexa.co"}
     ],
     "require": {
-        "php": "^7.3",
+        "php": "^7.3 || ^8.0",
         "ibexa/oss": "^3.3.x-dev",
         "ibexa/migrations": "^1.0.x-dev",
         "ibexa/image-editor": "^1.0.x-dev",
