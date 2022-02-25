@@ -43,3 +43,21 @@ jobs:
             SATIS_NETWORK_TOKEN: ${{ secrets.SATIS_NETWORK_TOKEN }}
             TRAVIS_GITHUB_TOKEN: ${{ secrets.TRAVIS_GITHUB_TOKEN }}
             SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+    regression-content-setup3:
+        name: "PHP 8.1/MySQL/Multirepository"
+        uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@main
+        with:
+            project-edition: "content"
+            project-version: "^3.3.x-dev"
+            test-suite: "--profile=regression --suite=content"
+            test-setup-phase-1: "--profile=regression --suite=setup-content --tags=~@part2 --mode=standard"
+            test-setup-phase-2: "--profile=regression --suite=setup-content --tags=@part2 --mode=standard"
+            setup: "doc/docker/base-dev.yml:doc/docker/selenium.yml"
+            multirepository: true
+            php-image: "ezsystems/php:8.1-v2-node16"
+            timeout: 90
+        secrets:
+            SATIS_NETWORK_KEY: ${{ secrets.SATIS_NETWORK_KEY }}
+            SATIS_NETWORK_TOKEN: ${{ secrets.SATIS_NETWORK_TOKEN }}
+            TRAVIS_GITHUB_TOKEN: ${{ secrets.TRAVIS_GITHUB_TOKEN }}
+            SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
