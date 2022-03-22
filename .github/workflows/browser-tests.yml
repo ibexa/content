@@ -13,7 +13,7 @@ jobs:
         uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@main
         with:
             project-edition: "content"
-            project-version: "^4.0.x-dev"
+            project-version: "4.0.x-dev"
             test-suite: "--profile=regression --suite=content"
             test-setup-phase-1: "--profile=regression --suite=setup-content --tags=~@part2 --mode=standard"
             test-setup-phase-2: "--profile=regression --suite=setup-content --tags=@part2 --mode=standard"
@@ -31,7 +31,7 @@ jobs:
         uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@main
         with:
             project-edition: "content"
-            project-version: "^4.0.x-dev"
+            project-version: "4.0.x-dev"
             test-suite: "--profile=regression --suite=content"
             test-setup-phase-1: "--profile=regression --suite=setup-content --tags=~@part2 --mode=standard"
             test-setup-phase-2: "--profile=regression --suite=setup-content --tags=@part2 --mode=standard"
