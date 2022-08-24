@@ -17,6 +17,7 @@
         "ibexa/oauth2-client": "~4.2.x-dev",
         "ibexa/installer": "~4.2.x-dev",
         "ibexa/product-catalog": "~4.2.x-dev",
+        "ibexa/seo": "~4.2.x-dev",
         "ibexa/scheduler": "~4.2.x-dev",
         "ibexa/calendar": "~4.2.x-dev",
         "ibexa/connector-dam": "~4.2.x-dev",
