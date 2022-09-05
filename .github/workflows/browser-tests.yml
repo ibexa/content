@@ -29,8 +29,8 @@ jobs:
             job-count: 2
             timeout: 90
         secrets:
-            SATIS_NETWORK_KEY: ${{ secrets.SATIS_NETWORK_KEY }}
-            SATIS_NETWORK_TOKEN: ${{ secrets.SATIS_NETWORK_TOKEN }}
+            SATIS_NETWORK_KEY: ${{ secrets.SATIS_CONTENT_KEY }}
+            SATIS_NETWORK_TOKEN: ${{ secrets.SATIS_CONTENT_TOKEN }}
             TRAVIS_GITHUB_TOKEN: ${{ secrets.TRAVIS_GITHUB_TOKEN }}
             SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
     regression-content-setup2:
@@ -49,8 +49,8 @@ jobs:
             job-count: 2
             timeout: 90
         secrets:
-            SATIS_NETWORK_KEY: ${{ secrets.SATIS_NETWORK_KEY }}
-            SATIS_NETWORK_TOKEN: ${{ secrets.SATIS_NETWORK_TOKEN }}
+            SATIS_NETWORK_KEY: ${{ secrets.SATIS_CONTENT_KEY }}
+            SATIS_NETWORK_TOKEN: ${{ secrets.SATIS_CONTENT_TOKEN }}
             TRAVIS_GITHUB_TOKEN: ${{ secrets.TRAVIS_GITHUB_TOKEN }}
             SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
     regression-content-setup3:
@@ -69,7 +69,7 @@ jobs:
             job-count: 2
             timeout: 90
         secrets:
-            SATIS_NETWORK_KEY: ${{ secrets.SATIS_NETWORK_KEY }}
-            SATIS_NETWORK_TOKEN: ${{ secrets.SATIS_NETWORK_TOKEN }}
+            SATIS_NETWORK_KEY: ${{ secrets.SATIS_CONTENT_KEY }}
+            SATIS_NETWORK_TOKEN: ${{ secrets.SATIS_CONTENT_TOKEN }}
             TRAVIS_GITHUB_TOKEN: ${{ secrets.TRAVIS_GITHUB_TOKEN }}
             SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
