@@ -26,6 +26,7 @@ jobs:
             setup: "doc/docker/base-dev.yml:doc/docker/db-postgresql.yml:doc/docker/varnish.yml:doc/docker/redis.yml:doc/docker/selenium.yml"
             send-success-notification: ${{ github.event.inputs.send-success-notification != 'false' }}
             multirepository: true
+            ci-scripts-branch: limit-updates-ibexa-co-packages
             job-count: 2
             timeout: 90
         secrets:
@@ -46,6 +47,7 @@ jobs:
             send-success-notification: ${{ github.event.inputs.send-success-notification != 'false' }}
             multirepository: true
             php-image: "ezsystems/php:7.3-v2-node14"
+            ci-scripts-branch: limit-updates-ibexa-co-packages
             job-count: 2
             timeout: 90
         secrets:
@@ -68,6 +70,7 @@ jobs:
             php-image: "ezsystems/php:8.1-v2-node16"
             job-count: 2
             timeout: 90
+            ci-scripts-branch: limit-updates-ibexa-co-packages
         secrets:
             SATIS_NETWORK_KEY: ${{ secrets.SATIS_CONTENT_KEY }}
             SATIS_NETWORK_TOKEN: ${{ secrets.SATIS_CONTENT_TOKEN }}
@@ -86,6 +89,7 @@ jobs:
             send-success-notification: ${{ github.event.inputs.send-success-notification != 'false' }}
             multirepository: true
             php-image: "ezsystems/php:8.1-v2-node16"
+            ci-scripts-branch: limit-updates-ibexa-co-packages
             job-count: 2
             timeout: 90
         secrets:
