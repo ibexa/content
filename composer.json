@@ -30,17 +30,6 @@
         "ibexa/taxonomy": "~4.4.x-dev",
         "ibexa/tree-builder": "~4.4.x-dev",
         "ibexa/content-tree": "~4.4.x-dev",
-        "ibexa/commerce-base-design": "~4.4.x-dev",
-        "ibexa/commerce-checkout": "~4.4.x-dev",
-        "ibexa/commerce-fieldtypes": "~4.4.x-dev",
-        "ibexa/commerce-price-engine": "~4.4.x-dev",
-        "ibexa/commerce-shop": "~4.4.x-dev",
-        "ibexa/commerce-shop-ui": "~4.4.x-dev",
-        "ezsystems/apache-tika-bundle": "^2.0",
-        "ezsystems/comment-bundle": "^3.1",
-        "ezsystems/job-queue-bundle": "^4.0",
-        "ezsystems/payment-core-bundle": "^3.0",
-        "ezsystems/stash-bundle": "^0.9",
         "gregwar/captcha-bundle": "^2.1"
     },
     "require-dev": {
