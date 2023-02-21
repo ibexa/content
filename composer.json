@@ -10,26 +10,26 @@
     ],
     "require": {
         "php": "^7.4 || ^8.0",
-        "ibexa/oss": "~4.4.x-dev",
-        "ibexa/measurement": "~4.4.x-dev",
-        "ibexa/migrations": "~4.4.x-dev",
-        "ibexa/image-editor": "~4.4.x-dev",
-        "ibexa/oauth2-client": "~4.4.x-dev",
-        "ibexa/installer": "~4.4.x-dev",
-        "ibexa/product-catalog": "~4.4.x-dev",
-        "ibexa/seo": "~4.4.x-dev",
-        "ibexa/scheduler": "~4.4.x-dev",
-        "ibexa/calendar": "~4.4.x-dev",
-        "ibexa/connector-dam": "~4.4.x-dev",
-        "ibexa/elasticsearch": "~4.4.x-dev",
-        "ibexa/fastly": "~4.4.x-dev",
-        "ibexa/icons": "~4.4.x-dev",
-        "ibexa/personalization": "~4.4.x-dev",
-        "ibexa/version-comparison": "~4.4.x-dev",
-        "ibexa/workflow": "~4.4.x-dev",
-        "ibexa/taxonomy": "~4.4.x-dev",
-        "ibexa/tree-builder": "~4.4.x-dev",
-        "ibexa/content-tree": "~4.4.x-dev",
+        "ibexa/oss": "~4.5.x-dev",
+        "ibexa/measurement": "~4.5.x-dev",
+        "ibexa/migrations": "~4.5.x-dev",
+        "ibexa/image-editor": "~4.5.x-dev",
+        "ibexa/oauth2-client": "~4.5.x-dev",
+        "ibexa/installer": "~4.5.x-dev",
+        "ibexa/product-catalog": "~4.5.x-dev",
+        "ibexa/seo": "~4.5.x-dev",
+        "ibexa/scheduler": "~4.5.x-dev",
+        "ibexa/calendar": "~4.5.x-dev",
+        "ibexa/connector-dam": "~4.5.x-dev",
+        "ibexa/elasticsearch": "~4.5.x-dev",
+        "ibexa/fastly": "~4.5.x-dev",
+        "ibexa/icons": "~4.5.x-dev",
+        "ibexa/personalization": "~4.5.x-dev",
+        "ibexa/version-comparison": "~4.5.x-dev",
+        "ibexa/workflow": "~4.5.x-dev",
+        "ibexa/taxonomy": "~4.5.x-dev",
+        "ibexa/tree-builder": "~4.5.x-dev",
+        "ibexa/content-tree": "~4.5.x-dev",
         "gregwar/captcha-bundle": "^2.1"
     },
     "require-dev": {
@@ -37,7 +37,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "4.4.x-dev"
+            "dev-master": "4.5.x-dev"
         }
     }
 }
