@@ -11,6 +11,7 @@
     "require": {
         "php": "^7.4 || ^8.0",
         "ibexa/oss": "~4.4.x-dev",
+        "ibexa/connect": "~4.4.x-dev",
         "ibexa/measurement": "~4.4.x-dev",
         "ibexa/migrations": "~4.4.x-dev",
         "ibexa/image-editor": "~4.4.x-dev",
