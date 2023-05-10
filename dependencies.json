@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-tmp_regression_645b8ee355aa00.15536567 as 4.4.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/experience",
+            "package": "ibexa/experience",
+            "shouldBeAddedAsVCS": false
+        }
+    ]
+}
