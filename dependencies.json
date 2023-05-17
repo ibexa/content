@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-IBX-5735-languages-dropdown-position as 4.4.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/calendar",
+            "package": "ibexa/calendar",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
