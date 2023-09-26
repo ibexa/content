@@ -1,6 +1,6 @@
 # Ibexa DXP Content Symfony Flex metapackage
 
-⚠️ As of Ibexa DXP v4.6.0, Ibexa Content has been replaced by Ibexa Headless. Proceed to [ibexa/headless](https://github.com/ibexa/headless) to check out the most recent version.
+⚠️ As of Ibexa DXP v4.6.0, Ibexa Content has been replaced by Ibexa Headless. Proceed to [ibexa/headless](https://github.com/ibexa/headless) to check out the latest version.
 
 This is a metapackage for Symfony Flex-based Ibexa DXP Content installation. 
 It requires a subscription.
