@@ -60,7 +60,7 @@ jobs:
             TRAVIS_GITHUB_TOKEN: ${{ secrets.TRAVIS_GITHUB_TOKEN }}
             SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
     regression-content-setup3:
-        name: "PHP 8.1/MySQL/Multirepository"
+        name: "PHP 8.2/MySQL/Multirepository"
         uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@main
         with:
             project-edition: "content"
@@ -71,7 +71,7 @@ jobs:
             setup: "doc/docker/base-dev.yml:doc/docker/selenium.yml"
             send-success-notification: ${{ github.event.inputs.send-success-notification != 'false' }}
             multirepository: true
-            php-image: "ghcr.io/ibexa/docker/php:8.1-node18"
+            php-image: "ghcr.io/ibexa/docker/php:8.2-node18"
             job-count: 2
             timeout: 90
         secrets:
