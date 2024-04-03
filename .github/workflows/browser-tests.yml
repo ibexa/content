@@ -21,8 +21,9 @@ on:
 jobs:
     regression-content-setup1:
         name: "PHP 7.3/PostgreSQL/Varnish/Redis/Multirepository"
-        uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@main
+        uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@compose-v2
         with:
+            ci-scripts-branch: compose-v2
             project-edition: "content"
             project-version: ${{ github.event.inputs.project-version }}
             test-suite: "--profile=regression --suite=content"
@@ -41,8 +42,9 @@ jobs:
             SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
     regression-content-setup2:
         name: "PHP 7.4/MySQL/Multirepository"
-        uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@main
+        uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@compose-v2
         with:
+            ci-scripts-branch: compose-v2
             project-edition: "content"
             project-version: ${{ github.event.inputs.project-version }}
             test-suite: "--profile=regression --suite=content"
@@ -61,8 +63,9 @@ jobs:
             SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
     regression-content-setup3:
         name: "PHP 8.2/MySQL/Multirepository"
-        uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@main
+        uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@compose-v2
         with:
+            ci-scripts-branch: compose-v2
             project-edition: "content"
             project-version: ${{ github.event.inputs.project-version }}
             test-suite: "--profile=regression --suite=content"
