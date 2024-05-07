@@ -23,7 +23,6 @@ jobs:
         name: "PHP 7.3/PostgreSQL/Varnish/Redis/Multirepository"
         uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@main
         with:
-            ci-scripts-branch: ibx-8154
             project-edition: "content"
             project-version: ${{ github.event.inputs.project-version }}
             test-suite: "--profile=regression --suite=content"
@@ -44,7 +43,6 @@ jobs:
         name: "PHP 7.4/MySQL/Multirepository"
         uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@main
         with:
-            ci-scripts-branch: ibx-8154
             project-edition: "content"
             project-version: ${{ github.event.inputs.project-version }}
             test-suite: "--profile=regression --suite=content"
@@ -65,7 +63,6 @@ jobs:
         name: "PHP 8.3/MySQL/Multirepository"
         uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@main
         with:
-            ci-scripts-branch: ibx-8154
             project-edition: "content"
             project-version: ${{ github.event.inputs.project-version }}
             test-suite: "--profile=regression --suite=content"
