@@ -34,6 +34,7 @@ jobs:
             php-image: "ghcr.io/ibexa/docker/php:7.3-node14"
             job-count: 2
             timeout: 90
+            ci-scripts-branch: tmp-debug-ci-composer
         secrets:
             SATIS_NETWORK_KEY: ${{ secrets.SATIS_NETWORK_KEY }}
             SATIS_NETWORK_TOKEN: ${{ secrets.SATIS_NETWORK_TOKEN }}
@@ -56,6 +57,7 @@ jobs:
             php-image: "ghcr.io/ibexa/docker/php:7.4-node16"
             job-count: 2
             timeout: 90
+            ci-scripts-branch: tmp-debug-ci-composer
         secrets:
             SATIS_NETWORK_KEY: ${{ secrets.SATIS_NETWORK_KEY }}
             SATIS_NETWORK_TOKEN: ${{ secrets.SATIS_NETWORK_TOKEN }}
@@ -78,6 +80,7 @@ jobs:
             php-image: "ghcr.io/ibexa/docker/php:8.3-node18"
             job-count: 2
             timeout: 90
+            ci-scripts-branch: tmp-debug-ci-composer
         secrets:
             SATIS_NETWORK_KEY: ${{ secrets.SATIS_NETWORK_KEY }}
             SATIS_NETWORK_TOKEN: ${{ secrets.SATIS_NETWORK_TOKEN }}
