@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-openapi as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/discounts-codes",
+            "package": "ibexa/discounts-codes",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
